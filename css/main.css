@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+body {
+  background: #1D1D1D;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif; }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-top: 3rem;
+  justify-content: center;
+  min-width: 300px;
+  width: 30%; }
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+  header h1 {
+    margin-top: 2rem;
+    font-size: 52px; }
+    header h1 label {
+      font-size: 24px;
+      vertical-align: middle; }
+  header h2 {
+    font-size: 24px;
+    margin-top: 1rem; }
+  header img {
+    width: 180px;
+    height: 180px;
+    padding: 25px;
+    border-radius: 100%;
+    margin: auto;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.1); }
+
+section {
+  margin-top: 2rem;
+  width: 100%; }
+  section ul.social {
+    list-style-type: none;
+    margin: 0; }
+    section ul.social a li {
+      font-size: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      height: 35px;
+      color: #CCCCCC; }
+    section ul.social a li:hover {
+      color: #FFFFFF; }
+    section ul.social a i {
+      width: 30px; }
+    section ul.social a label.short {
+      font-size: 18px;
+      display: inline-block;
+      text-align: right;
+      opacity: 0.1;
+      float: right; }
+
+footer {
+  margin: 2rem; }
+
+::selection {
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.2); }
+
+::-moz-selection {
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.2); }
+
+img {
+  pointer-events: none; }
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+  cursor: default; }
