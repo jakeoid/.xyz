@@ -25,7 +25,7 @@ $ npm install gulp-cli --global
 
 ### 2. Install gulp & dependencies:
 ```sh
-$ npm install gulp gulp-pug gulp-sass
+$ npm install gulp gulp-jade gulp-sass
 ```
 
 ### 3. Run gulpfile
