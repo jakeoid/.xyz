@@ -20,8 +20,7 @@ main {
   margin: auto;
   margin-top: 3rem;
   justify-content: center;
-  min-width: 300px;
-  width: 30%;
+  width: 40%;
 }
 
 header {
@@ -93,6 +92,12 @@ section {
   }
 }
 
+a {
+  text-decoration: none;
+  color: $text-color;
+  cursor: default;
+}
+
 footer {
   margin: 2rem;
 }
@@ -114,4 +119,10 @@ a {
   text-decoration: none;
   color: $text-color;
   cursor: default;
+}
+
+@media screen and (max-width: 740px) {
+  main {
+    width: 90%;
+  } 
 }

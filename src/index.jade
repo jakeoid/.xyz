@@ -1,54 +1,60 @@
-- var username = "Jakeoid"
-- var aka = "Jake"
+- var username = "Lorem"
+- var aka = "Ipsum"
+- var tagline = "I build HTML and CSS."
 
 html
   head
-    meta(charset='utf-8')
+    // Title
     title #{username}
+    // Meta
+    meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='theme-color', content='#1d1d1d')
+    // CSS
     link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css')
     link(href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", rel="stylesheet", integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN", crossorigin="anonymous")
     link(rel='stylesheet', href='assets/css/main.css')
+    // Icon
     link(rel='icon', type='image/png', href='assets/favicon.png')
   body
     main
       header
-        img(src="/assets/avatar.svg" alt="avatar")
+        img(src="./assets/avatar.png")
         h1 #{username} #[label aka #{aka}]
-        h2 I build web and program.
+        h2 #{tagline}
       section
         ul(class='social')
-          a(href="#")
+          a(href="https://example.com/")
             li
               div
                 i(class='fa fa-home')
                 label Home
-              label(class='short') jakeoid.com
-          a(href="#")
+              label(class='short') example.com
+          a(href="https://discord.gg/")
             li
               div
                 i(class='fa fa-comments')
                 label Discord
-              label(class='short') jakeoid#6284
-          a(href="#")
+              label(class='short') example#0001
+          a(href="https://github.com/")
             li
               div
                 i(class='fa fa-github')
                 label Github
-              label(class='short') @jakeoid
-          a(href="#")
+              label(class='short') @example
+          a(href="https://steamcommunity.com/id/")
             li
               div
                 i(class='fa fa-steam')
                 label Steam
-              label(class='short') /id/jakeoid
-          a(href="#")
+              label(class='short') /id/example
+          a(href="https://reddit.com/u/")
             li
               div
                 i(class='fa fa-reddit-alien')
                 label Reddit
-              label(class='short') /u/jakeoid
+              label(class='short') /u/example
       footer
         div Created by #[a(href="#") Jakeoid], &copy; 2016.
   script(type='text/javascript' src='assets/script.js')
