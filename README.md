@@ -1,4 +1,4 @@
-# jakeoid.xyz
+# jakeoid.xyz [![license](https://img.shields.io/github/license/jakeoid/jakeoid.xyz.svg)]() 
 
 ![screenshot](https://i.am-a.ninja/ffeb00.png
 )
